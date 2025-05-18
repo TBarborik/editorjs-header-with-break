@@ -260,7 +260,9 @@ export default class Header {
   static get sanitize() {
     return {
       level: false,
-      text: {},
+      text: {
+        br: true
+      },
     };
   }
 
